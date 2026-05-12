@@ -1,0 +1,18 @@
+### Explain a scenario where you used git fork instead of git clone. Why was forking necessary?
+
+git fork when I contributed to a DevOps project in my org on GitHub. Since I didn’t have write access to the original repository, I forked it into my GitHub account, made changes, and then created a pull request from my fork to the upstream repo.
+
+## Explanation
+
+n this scenario, the original repository belonged to an organization. I wanted to fix a bug in their manifest file setup for Kubernetes deployments. Because I didn’t have contributor rights to push directly, I used the Fork button on GitHub to create a personal copy of the repository under my own GitHub username.
+
+1. I cloned my fork to my local system:
+    ```git clone https://github.com/my-username/devops-helm-project.git```
+2. Created a new branch, made the fix, committed the changes.
+3. Pushed the branch to my fork:
+    ```git push origin bugfix-helm-values```
+4. Finally, I submitted a pull request to the original repository.
+
+
+
+
