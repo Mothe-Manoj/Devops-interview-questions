@@ -17,8 +17,7 @@ git pull, you're doing this plus merging the changes into your current branch in
 
 That’s shorthand for:
 
-```git fetch origin 
-    git merge origin/main```
+``` git fetch origin && git merge origin/main```
 
 
 Use git fetch when you want control.
