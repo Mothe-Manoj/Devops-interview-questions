@@ -39,8 +39,8 @@ Add the public key from your new key pair (new-key.pub)
 ### Step 6: Detach the volume from the  instance
 ### Step 7: Start the original instance and SSH with new key
 
-Prevention Tips:
+## Prevention Tips:
 
-Always back up PEM files in a secure location (like a password manager).
-Create a secondary user with a different key for backup access.
-Use EC2 Instance Connect for temporary browser-based access (only works for Amazon Linux 2+ and enabled roles).
+- Always back up PEM files in a secure location (like a password manager).
+- Create a secondary user with a different key for backup access.
+- Use EC2 Instance Connect for temporary browser-based access (only works for Amazon Linux 2+ and enabled roles).

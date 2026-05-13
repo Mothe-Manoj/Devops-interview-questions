@@ -65,8 +65,8 @@ sudo iptables -L
 ```
 
 ## Common Real-Life Causes:
-App crashed or not listening on correct port
-Wrong proxy_pass value in NGINX
-Port blocked by firewall
-NGINX service not restarted after config change
-App takes too long to start — NGINX proxies fail
+- App crashed or not listening on correct port
+- Wrong proxy_pass value in NGINX
+- Port blocked by firewall
+- NGINX service not restarted after config change
+- App takes too long to start — NGINX proxies fail

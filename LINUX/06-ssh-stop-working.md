@@ -69,11 +69,11 @@ Mount it and edit ~/.ssh/authorized_keys or repair config
 Reattach and start the original instance
 
 ## Real-Life Causes I’ve Faced:
-Team used a wrong key pair name
-Security group updated accidentally
-User tried SSH with wrong username (e.g., root)
-Instance rebooted with new IP and old DNS cached
-/etc/ssh/sshd_config edited incorrectly
+- Team used a wrong key pair name
+- Security group updated accidentally
+- User tried SSH with wrong username (e.g., root)
+- Instance rebooted with new IP and old DNS cached
+- /etc/ssh/sshd_config edited incorrectly
 
 Summary:
 Identify error → check network reachability → inspect key/user mismatch → use EC2 Connect if possible → rescue via EBS if needed.

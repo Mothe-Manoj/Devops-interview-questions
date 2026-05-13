@@ -48,7 +48,7 @@ Configure alerts for high CPU (e.g., above 80% for 5 mins)
 Refactor long-running or expensive tasks
 
 ## Real-Life Examples:
-A cron script looping due to a bad condition
-A Java app stuck in infinite recursion
-Docker containers running unbounded scraping jobs
-Antivirus or audit daemon consuming CPU after log floods
+- A cron script looping due to a bad condition
+- A Java app stuck in infinite recursion
+- Docker containers running unbounded scraping jobs
+- Antivirus or audit daemon consuming CPU after log floods

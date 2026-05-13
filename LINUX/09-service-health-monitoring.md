@@ -39,7 +39,7 @@ for service in "${services[@]}"; do
 done
 
 ```
-##Detailed Explanation
+## Detailed Explanation
 - services=(...): An array of services to monitor.
 - systemctl is-active: Checks if a service is running.
 - systemctl restart: Tries to restart the service if it's not active.

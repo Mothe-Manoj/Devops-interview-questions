@@ -4,6 +4,6 @@
 
 
 ## Best Practices
-Always dry-run before deleting anything in production.
-Consider logging deletions or compressing instead of deleting if space permits.
-Automate safely with cron jobs for specific paths, e.g., /tmp or /var/cache.
+- Always dry-run before deleting anything in production.
+- Consider logging deletions or compressing instead of deleting if space permits.
+- Automate safely with cron jobs for specific paths, e.g., /tmp or /var/cache.

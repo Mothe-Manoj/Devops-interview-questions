@@ -30,12 +30,12 @@ sudo find /path/to/folder -type f -name "*.log" -mtime +30 -exec rm -f {} \;
 ```
 
 ### Breakdown of the command:
-sudo: Used if the directory (like /var/log) requires root access.
-find: The base command to search files.
-/path/to/folder: Replace with your target directory (e.g., /var/log).
--type f: Ensures only files are matched.
--name "*.log": Filters files ending with .log.
--mtime +30: Filters files modified over 30 days ago.
--exec rm -f {} \;: Executes the rm -f command on each matched file:
-{} gets replaced by the current file path.
-\; indicates the end of the command.
+- sudo: Used if the directory (like /var/log) requires root access.
+- find: The base command to search files.
+- /path/to/folder: Replace with your target directory (e.g., /var/log).
+-  -type f: Ensures only files are matched.
+- -name "*.log": Filters files ending with .log.
+- -mtime +30: Filters files modified over 30 days ago.
+- -exec rm -f {} \;: Executes the rm -f command on each matched file:
+- {} gets replaced by the current file path.
+- \; indicates the end of the command.
